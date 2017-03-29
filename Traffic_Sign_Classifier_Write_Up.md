@@ -153,8 +153,6 @@ A few different schemes I work through include:
    1.d: Combing rgb into 2 channels with coefficient trained as part of the network
 2. Number of convolutional layers and NN layers:
    To reduce the number of parameters, I want to reduce the number of final outoput channels from final CNN layer so that my NN layers remain simple, and I also want to increase the number of CNN layers so that I explore more combinations of filters while keeping the number of coefficients in the CNN layers small. My final CNN is 5 layers (the first layer is not a really a filter on 2D image but rather a combination of color channels). 
-
-Note: I have not experimented with dropout. I meet a pratical constraint that I have a limited amount of budget to spent on AWS GPUs.
  
 ###Test a Model on New Images
 
